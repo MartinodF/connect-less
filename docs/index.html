@@ -17,11 +17,10 @@ It's based upon the old compiler middleware included in Connect &lt;1.7.</p>
   <span class="nx">options</span> <span class="o">=</span> <span class="nx">options</span> <span class="o">||</span> <span class="p">{};</span></pre></div>             </td>           </tr>                               <tr id="section-4">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-4">&#182;</a>               </div>               <h3>Options</h3>
 
 <ul>
-<li><strong>srcDir</strong>: directory with <code>.less</code> files</li>
-<li><strong>dstDir</strong>: directory to store the <code>.css</code> files into</li>
-<li><strong>dstRoot</strong>: public root, set if <code>dstDir</code> is not your public root</li>
-<li><strong>dstSub</strong>: internal RegExp</li>
-<li><strong>compress</strong>: minify the <code>.css</code> file</li>
+<li><strong>src</strong>: directory with <code>.less</code> files</li>
+<li><strong>dst</strong>: directory to store the <code>.css</code> files into, defaults to <code>src</code></li>
+<li><strong>dstRoot</strong>: public root, set it if <code>dstDir</code> is not your public root</li>
+<li><strong>compress</strong>: minify the <code>.css</code> files</li>
 <li><strong>debug</strong>: print lots of messages to the console</li>
 <li><strong>force</strong>: force updating <code>.css</code> files on every request</li>
 </ul>             </td>             <td class="code">               <div class="highlight"><pre>  <span class="kd">var</span> <span class="nx">srcDir</span> <span class="o">=</span> <span class="nx">path</span><span class="p">.</span><span class="nx">normalize</span><span class="p">(</span><span class="nx">options</span><span class="p">.</span><span class="nx">src</span> <span class="o">||</span> <span class="nx">process</span><span class="p">.</span><span class="nx">cwd</span><span class="p">())</span>
