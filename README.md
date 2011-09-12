@@ -1,10 +1,10 @@
 # connect-less
 
-A simple `.less` middleware for Node's [Connect](https://github.com/senchalabs/connect), able to compile your Less files on the fly as needed.
+A simple [less](http://lesscss.org) middleware for Node's [Connect](https://github.com/senchalabs/connect), able to compile your `.less` files on the fly as needed.
 
-## Ok, wait...
+## What?!
 
-You just plug connect-less to your Connect/Express application, and let it manage your .less -> .css conversions.
+You just have to plug connect-less to your Connect/Express application to let it manage your `.less` -> `.css` conversions automatically.
 
 ## How do I do it?
 
@@ -20,10 +20,4 @@ Then load it in your app, specifying the source (and optionally destination) dir
 
 Yes, connect-less will take care of everything.
 
-## More info
-
-You can read the [docco](http://jashkenas.github.com/docco)-commented source code with the full description of the available options [here](http://martinodf.github.com/connect-less).
-
-## License
-
-MIT!
+If you want, you can read the [docco](http://jashkenas.github.com/docco)-commented source code with the full description of the available options [here](http://martinodf.github.com/connect-less).
