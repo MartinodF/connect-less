@@ -1,7 +1,7 @@
 {
   "name": "connect-less",
   "description": "A simple `less` middleware for Connect",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "https://github.com/MartinodF/connect-less",
   "repository": "git://github.com/MartinodF/connect-less.git",
   "author": "Martino di Filippo <puntodifuga@gmail.com>",
