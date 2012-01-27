@@ -14,7 +14,7 @@ Use [NPM](http://npmjs.org) to install connect-less
 
 Then load it in your app, specifying the source (and optionally destination) directory
 
-    app.use(require('connect-less')({ src: __dirname + '/public/' });
+    app.use(require('connect-less')({ src: __dirname + '/public/' }));
 
 ## Just that?
 
