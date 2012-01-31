@@ -1,14 +1,14 @@
 {
   "name": "connect-less",
   "description": "A simple `less` middleware for Connect",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "homepage": "https://github.com/MartinodF/connect-less",
   "repository": "git://github.com/MartinodF/connect-less.git",
   "author": "Martino di Filippo <puntodifuga@gmail.com>",
   "main": "./lib/connect-less.js",
   "dependencies": {
     "async": ">=0.1.12",
-    "less": ">=1.1.0"
+    "less": ">=1.1.6"
   },
   "engines": {
     "node": ">=0.4.0"
