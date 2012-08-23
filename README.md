@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/MartinodF/connect-less.png)](http://travis-ci.org/MartinodF/connect-less)
 # connect-less
 
 A simple [less](http://lesscss.org) middleware for Node's [Connect](https://github.com/senchalabs/connect), able to compile your `.less` files on the fly as needed. Just plug connect-less to your Connect/Express application to let it manage your `.less` -> `.css` conversions automatically.
