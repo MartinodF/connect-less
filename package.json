@@ -8,7 +8,8 @@
   "main": "./lib/connect-less.js",
   "dependencies": {
     "async": "0.1.x",
-    "less": "1.3.x"
+    "less": "1.3.x",
+    "mkdirp": "~0.3.5"
   },
   "engines": {
     "node": ">=0.4.0"
@@ -22,5 +23,5 @@
     "less",
     "lesscss",
     "middleware"
-   ]
+  ]
 }
